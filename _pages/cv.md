@@ -17,18 +17,18 @@ Education
 
 Professional experience
 ======
-**Research Intern**, EDF, 2022
-**Economics Consultant**, Analysis Group, 2021
-**Research Assistant**, CREST, 2020  ²
+* **Research Intern**, EDF, 2022
+* **Economics Consultant**, Analysis Group, 2021
+* **Research Assistant**, CREST, 2020
   
 
   
 Talks
 ======
 **2023**
-Journées de Microéconomie Appliquée, _Strasbourg_
-AFSE, _Paris_
-Economics of Climate Change and Environmental Policy, _Orléans_
+* Journées de Microéconomie Appliquée, _Strasbourg_
+* AFSE, _Paris_
+* Economics of Climate Change and Environmental Policy, _Orléans_
 
 
 Teaching
