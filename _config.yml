@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ryan Boustany"
-  avatar           : "ryan.png"
-  bio              : "PhD student at TSE, at ANITI, and at Thales LAS France"
+  name             : "Samy Zitouni"
+  avatar           : "samy.png"
+  bio              : "PhD student @ Paris School of Economics | EDF"
   location         : "Paris, France"
   #employer         : 
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=pZn2PdAAAAAJ"
-  email            : "ryan.boustany@ut-capitole.fr"
+  email            : "samyzitouni@psemail.eu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
