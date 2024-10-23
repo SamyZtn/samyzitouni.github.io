@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ryan Boustany"
+title                    : "Samy Zitouni"
 title_separator          : "-"
-name                     : &name "Ryan Boustany"
-description              : &description "PhD student at TSE, at ANITI, and at Thales LAS France"
+name                     : &name "Samy Zitouni"
+description              : &description "PhD student @ Paris School of Economics | EDF"
 url                      : https://samyztn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SamyZtn/samyztn.github.io"
