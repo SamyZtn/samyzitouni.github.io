@@ -11,54 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D, Economics, _Paris School of Economics_, 2023 - present
+* M.S., Economics, _Institut Polytechnique de Paris_, 2022
+* Master of Engineering, Statistics and Economics, _ENSAE_, 2022
 
-Work experience
+Professional experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+**Research Intern**, EDF, 2022
+**Economics Consultant**, Analysis Group, 2021
+**Research Assistant**, CREST, 2020  ²
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+**2023**
+Journées de Microéconomie Appliquée, _Strasbourg_
+AFSE, _Paris_
+Economics of Climate Change and Environmental Policy, _Orléans_
+
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* R for Econometrics and Data Analysis, MS, _Paris School of Economics_, Fall 2024
+* Mathematics and Statistics for Economic Analysis, MS, _Paris School of Economics_, Fall 2024
+* Econometrics, L3, _Université Paris 1 Panthéon Sorbonne_, Spring 2024
+
