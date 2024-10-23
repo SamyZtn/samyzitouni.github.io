@@ -14,7 +14,9 @@ Teaching assistant at [Paris School of Economics](https://www.parisschoolofecono
 - **Institution**: TSE
 - **Years**: 2023
 - **Materials**:
-     - Tutorial 1 :[Tutorial 1](https://github.com/SamyZtn/samyzitouni.github.io/blob/master/files/TD1_R.pdf), [Data for tutorial 1](https://github.com/SamyZtn/samyzitouni.github.io/blob/master/files/imdb_top250_french.csv), [Code draft](https://github.com/SamyZtn/samyzitouni.github.io/blob/master/files/tuto1.R)
+     - Tutorial 1 : [Tutorial 1](https://raw.githubusercontent.com/SamyZtn/samyzitouni.github.io/master/files/TD1_R.pdf), 
+[Data for tutorial 1](https://raw.githubusercontent.com/SamyZtn/samyzitouni.github.io/master/files/imdb_top250_french.csv), 
+[Code draft](https://raw.githubusercontent.com/SamyZtn/samyzitouni.github.io/master/files/tuto1.R)
      - Turorial 2 :
 
 ### Mathematics and Statistics for Economic Analysis
