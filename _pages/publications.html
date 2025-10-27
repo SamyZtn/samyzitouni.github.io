@@ -10,6 +10,36 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("details[data-animate]").forEach((details) => {
+    const content = details.querySelector(".pub-abstract__content");
+    if (!content) return;
+
+    details.addEventListener("toggle", () => {
+      const isOpening = details.open;
+      const startHeight = isOpening ? 0 : content.scrollHeight;
+      const endHeight = isOpening ? content.scrollHeight : 0;
+
+      content.style.height = startHeight + "px";
+      requestAnimationFrame(() => {
+        content.style.transition = "height 0.25s ease, opacity 0.25s ease";
+        content.style.height = endHeight + "px";
+        content.style.opacity = isOpening ? "1" : "0";
+      });
+
+      const end = () => {
+        if (isOpening) {
+          content.style.height = "auto";
+        }
+        content.removeEventListener("transitionend", end);
+      };
+      content.addEventListener("transitionend", end);
+    });
+  });
+});
+</script>
+
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -49,24 +79,49 @@ author_profile: true
   {% endfor %}
 {% endif %}
 <style>
-.pub-abstract > summary { cursor:pointer; list-style:none; }
-.pub-abstract > summary::-webkit-details-marker { display:none; }
-.pub-abstract > summary::before {
-  content: "▸"; display:inline-block; margin-right:.5rem;
-  transition: transform .2s ease;
+.pub-abstract {
+  margin: 0.5rem 0 1rem;
 }
-.pub-abstract[open] > summary::before { transform: rotate(90deg); }
 
-.pub-abstract__content { overflow:hidden; }
+/* Bouton "Résumé" */
+.pub-abstract > summary {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+.pub-abstract > summary::-webkit-details-marker {
+  display: none;
+}
+.pub-abstract > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: .4rem;
+  transition: transform 0.25s ease;
+  color: #666;
+}
+.pub-abstract[open] > summary::before {
+  transform: rotate(90deg);
+  color: #333;
+}
 
-@keyframes pubFadeIn {
-  from { opacity: 0; transform: translateY(-2px); }
-  to   { opacity: 1; transform: translateY(0); }
+/* Contenu animé */
+.pub-abstract__content {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition:
+    height 0.25s ease,
+    opacity 0.25s ease;
 }
 .pub-abstract[open] .pub-abstract__content {
-  animation: pubFadeIn .25s ease;
+  opacity: 1;
 }
 </style>
+
 
 
 
