@@ -11,7 +11,7 @@ Teaching assistant at [Paris School of Economics](https://www.parisschoolofecono
 
 ### R for Econometrics and Data Analysis
 - **Level**: M2
-- **Institution**: TSE
+- **Institution**: PSE
 - **Years**: 2023
 - **Materials**:
      - Tutorial 1 : [Tutorial 1](https://raw.githubusercontent.com/SamyZtn/samyzitouni.github.io/master/files/TD1_R.pdf), 
