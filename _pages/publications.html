@@ -45,6 +45,25 @@ author_profile: true
     {% endif %}
   {% endfor %}
 {% endif %}
+<style>
+.pub-abstract > summary { cursor:pointer; list-style:none; }
+.pub-abstract > summary::-webkit-details-marker { display:none; }
+.pub-abstract > summary::before {
+  content: "▸"; display:inline-block; margin-right:.5rem;
+  transition: transform .2s ease;
+}
+.pub-abstract[open] > summary::before { transform: rotate(90deg); }
+
+.pub-abstract__content { overflow:hidden; }
+
+@keyframes pubFadeIn {
+  from { opacity: 0; transform: translateY(-2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.pub-abstract[open] .pub-abstract__content {
+  animation: pubFadeIn .25s ease;
+}
+</style>
 
 
 
