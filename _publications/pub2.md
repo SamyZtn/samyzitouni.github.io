@@ -3,7 +3,7 @@ title: "On the Capitalisation of Energy Labels on the Housing Market"
 authors:
   - Samy Zitouni
 venue: Under Review
-year: 2025
+year: date
 category: 
 url: https://edf.hal.science/hal-04380709/document
 pdf:  
