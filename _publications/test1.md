@@ -10,6 +10,5 @@ abstract: >
 ---
 
 **Authors**: Corinne Chaton, Samy Zitouni
-
 **Prepint**: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5432935)
 
