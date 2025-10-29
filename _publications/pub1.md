@@ -1,7 +1,7 @@
 ---
 title: "Capitalization of Energy Labels on the Housing Market"
 collection: publications
-permalink: /publication/test1
+permalink: /publication/pub1
 date: 2025-10-10
 venue: 'Under review @ Ressource and Energy Economics'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5432935'
