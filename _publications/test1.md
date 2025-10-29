@@ -4,7 +4,7 @@ authors:
   - Samy Zitouni
   - Corinne Chaton
 venue: Under Review
-year: 2025
+date: 2025
 category:
 url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5432935
 pdf: 
