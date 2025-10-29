@@ -10,6 +10,6 @@ abstract: >
     We find that both financing programmes increase the probability of choosing an energy renovation over the opt-out option. Nevertheless, participants exposed to the mortgage programme have a preference for the status quo (not renovating), unlike those exposed to third-party financing, that we explain by the insurance the program provides via the third-party and mutual interests. This explains why the group offered the energy-efficient mortgage is more inclined to choose renovation scenarios that include an administrative facilitator, highlighting the importance of procedural support and risk transfer in the decision-making process. We provide policy recommandation on cases in which these funding mechanisms could play a central role in carbon mitigation policy in the residential sector.
 ---
 
-**Authors**: Corinne Chaton, Samy Zitouni
-**Prepint**: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5432935)
+**Authors**: Corinne Chaton, Valérie Lesgards, Samy Zitouni
+**Prepint**: _No Preprint available at the moment_
 
